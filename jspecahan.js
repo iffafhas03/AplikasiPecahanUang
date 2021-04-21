@@ -99,7 +99,7 @@ function hitung(){
      c=" ";
    }
 
-   var sisa= JmlSeratus*100000 + JmlLima*50000 +JmlDua*20000;
+   var sisa= JmlUang-((lblSeratus*100000) + (lblLima*50000) +(lblDua*20000));
 
    document.frm.hasil.value =  a + b + c ;
    document.frm.sisa.value = parseInt(sisa);
